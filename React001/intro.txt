@@ -29,3 +29,5 @@ Index &  App  Component   ,   main  component
 
 
 React   apllications   are    also  tearmed  as  single  page  apllication
+
+Package-lock  jason  -  configuration  file   of  ur project   //  details  about  your   project  
