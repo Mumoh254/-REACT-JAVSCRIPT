@@ -84,3 +84,16 @@ function  changeAge(){
 }
 
 <button   onclick={changeAge}>  changeName  </button>
+
+
+pssing  an  argument in  react   wen  u  calling   functions
+
+wen  ucall pass.bind(this,paremeter)
+dosomething.bind(this,"mars")
+
+//method   two 
+create  an   anonimous   function  inside  bn this   function 
+
+dosomething{ ()=>{
+    planet("Mars");
+}}
