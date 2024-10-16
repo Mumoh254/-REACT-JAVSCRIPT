@@ -7,10 +7,8 @@ function App() {
   return (
     <>
     
-      <div>
-        <h1>  Hellow   Practising  React </h1>
-       <Product  name:"peter"/>
-      </div>
+       <Product name:"peter"  age:"22" specs={{ram:"3gb" , description:"this  is  one  of the best  selling disk  that  we  have "}}/>
+  
 
     </>
   )
