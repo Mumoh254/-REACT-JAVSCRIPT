@@ -61,3 +61,14 @@ data   of  a  component   that  comes  from  within the   component  pros  comes
 onclick  is  a  reserved    keyword  in  javascript   onclick
 
 state    data  of   a  component   and  when  that   data    changes    the  ui  changes
+
+
+How    to  create   a  state   variable  
+state  feature  is   inbuild  in  react     if  u want     to  have  a  state  variable   u   shld   import  the  state  feature  of  react  
+//Hooks
+import  {  useState  }  from  "react" ;
+
+let  [ var  name  , function  name ]  =  useState()  tells  react    treat  this   as  react  variable 
+var name  =    where   the  data  will be  stored    functionn  name   will be   used  to  chnage  the    value 
+
+let  [ name  , setName ]  =  useState();
