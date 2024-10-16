@@ -51,3 +51,13 @@ props   a  way   to  pass  data   from  the   parent  component   to  the  child
 
 you  can   pass  anything   inside  a  prop array  object 
 <Product  name:"peter"  price:"20000"  specs={{ram:2gb" , size:"huge"}}/>  
+
+
+//state  -  
+state   is   data  of  a  component  
+
+data   of  a  component   that  comes  from  within the   component  pros  comes   from   outside   
+
+onclick  is  a  reserved    keyword  in  javascript   onclick
+
+state    data  of   a  component   and  when  that   data    changes    the  ui  changes

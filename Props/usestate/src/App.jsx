@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import product from './product'
+import User from './user'
+
 
 function App() {
   
