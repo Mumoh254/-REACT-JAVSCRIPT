@@ -39,4 +39,6 @@ port  no  and  env  setting
 
 //App  is   by  default   loadeded  to   index.html
 
+//component   is  always   written  as  a function  but  loadede  as a tag 
+
 
