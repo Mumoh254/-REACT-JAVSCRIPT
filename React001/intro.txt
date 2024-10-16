@@ -34,3 +34,9 @@ Package-lock  jason  -  configuration  file   of  ur project   //  details  abou
 
 vite  config   environment  configuration  server  configuration 
 port  no  and  env  setting 
+
+// descriptive  config  file 
+
+//App  is   by  default   loadeded  to   index.html
+
+
