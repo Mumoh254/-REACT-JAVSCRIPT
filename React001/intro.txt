@@ -28,3 +28,4 @@ Index &  App  Component   ,   main  component
 *All  components   shld  be   directly  or  indirectlyn   loaded  to  app  component
 
 
+React   apllications   are    also  tearmed  as  single  page  apllication
