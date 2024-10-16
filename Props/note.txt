@@ -1,0 +1,13 @@
+
+wile    using  react   use  className  not  class  because  class  is  a  preserved keyword  in  javascript 
+only  in  jsx  file 
+
+  i  want   to  use   the  same  dater   3  tyms 
+  you  dont  want  to  recreate  the data 
+  Props  stands   for  properties
+
+
+  properties  of  a  component   is  what  is   called  Props
+
+  input  type="text" placeholder=">
+  all  attributes   are  properties 
