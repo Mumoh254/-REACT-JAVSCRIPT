@@ -1,0 +1,30 @@
+
+
+React  js    liblary   for  bulding   user interface  /  interactions 
+React  follows a   component  based  approach 
+
+
+js  build  tools: 
+=Create  react-approach
+=vite  -   tool  that  help  u  install  compile    react  based  projects   created
+
+
+--version    of  node
+node  --v
+V20.....
+
+typescript   better way  of  writing  js
+
+Public  -   assets  images  fonts  icons 
+.gitignore  =   files  and   folders  u  dont  want  to  upload  to   git    when you  are uploading  projects  to  git
+index.html  =  simple   div   with  an  id  of  root   the  main file  in  ur  project   
+
+How   React   Works  
+react  has  only  one   one   file  index.html
+Component  a  function  returning  an  html 
+
+Index &  App  Component   ,   main  component
+
+*All  components   shld  be   directly  or  indirectlyn   loaded  to  app  component
+
+
