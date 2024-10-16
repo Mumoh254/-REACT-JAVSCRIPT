@@ -72,3 +72,15 @@ let  [ var  name  , function  name ]  =  useState()  tells  react    treat  this
 var name  =    where   the  data  will be  stored    functionn  name   will be   used  to  chnage  the    value 
 
 let  [ name  , setName ]  =  useState();
+
+if  you  change  the   state  of  a  component   then  component  rerenders 
+
+the   component   reacted  to  the   state   change  thats   why   we  av  name  React 
+
+let [ age  ,  setAge]  =  usestate("22)
+
+function  changeAge(){
+    setAge("45")
+}
+
+<button   onclick={changeAge}>  changeName  </button>
