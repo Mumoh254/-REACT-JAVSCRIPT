@@ -35,3 +35,9 @@ displaying   data  fromm  any  jkavascript  variable  in  jsx
 
 let  n  =  peter
 <p> {n}  </p>
+
+
+how   to  acess   property  of  object
+object.propertyname
+
+props.name
