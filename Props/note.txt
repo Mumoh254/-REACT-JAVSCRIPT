@@ -41,3 +41,13 @@ how   to  acess   property  of  object
 object.propertyname
 
 props.name
+
+//you   can   paass  difrent   properties
+<Product  name:"peter"  price:"20000"/>  
+props.name
+props.price
+
+props   a  way   to  pass  data   from  the   parent  component   to  the  child  component 
+
+you  can   pass  anything   inside  a  prop array  object 
+<Product  name:"peter"  price:"20000"  specs={{ram:2gb" , size:"huge"}}/>  
