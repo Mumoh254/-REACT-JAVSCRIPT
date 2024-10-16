@@ -11,3 +11,21 @@ only  in  jsx  file
 
   input  type="text" placeholder=">
   all  attributes   are  properties 
+
+  <Product/>   go  to  the  component  and  pass  properties  
+
+    <Product  name:"peter"/>    loading  a  componet   and  passing props   
+
+    making  use   of  the  prooperties  thatb  u m paseed   go  to  the   function  component   and  on   tyhe   function  pass props object 
+
+    import React from "react"
+
+function  Product(props){
+    return(
+        <div>    Tesla   Model1 </div>
+    )
+}
+
+export  default  = Product
+
+this  props   is     an  object  in  which  your  data  will  be   stored 

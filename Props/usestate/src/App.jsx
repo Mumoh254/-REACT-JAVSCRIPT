@@ -7,8 +7,10 @@ function App() {
   return (
     <>
     
-    <h1>  Hellow   Practising  React </h1>
-    </Product>
+      <div>
+        <h1>  Hellow   Practising  React </h1>
+       <Product  name:"peter"/>
+      </div>
 
     </>
   )
