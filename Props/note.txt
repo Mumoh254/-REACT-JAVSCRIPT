@@ -29,3 +29,9 @@ function  Product(props){
 export  default  = Product
 
 this  props   is     an  object  in  which  your  data  will  be   stored 
+
+
+displaying   data  fromm  any  jkavascript  variable  in  jsx
+
+let  n  =  peter
+<p> {n}  </p>
