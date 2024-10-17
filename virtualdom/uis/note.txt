@@ -6,3 +6,10 @@ conditional  rendering  of   components
 
 //understanding   virtual  dom  
 
+react   creates   2  doms  main  and  a  replica  of  then   main  dom  which  we  call  a  virtual  dom
+in  react  the  main  dom  is  not  directly  hampared  
+wen  u  do  anychange  a  new   virtual dom  is  created 
+compares   previous  virtual   and  the   initial   vr  dom   and  callculates   wats  new  here  and  updates  only  what  is  in  new   virtual  dom 
+Reacts   works   on  the   arctual    element  that  was  changed  ....
+
+
