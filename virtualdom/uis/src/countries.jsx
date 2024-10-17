@@ -4,11 +4,13 @@ import { useState } from 'react'
 
 function Countries (){
 
-    let [ countries  , setCountris]  =  useState([
-        {name:"india" , capital:"New delhi"},
-        {country:"kenya"  , capital:"Nairobi"},
+    let [ countries  , setCountris]  =  useState([ 
+
+        {name:"india" , capital:"New delhi"}, 
+        {country:"kenya"  , capital:"Nairobi"},    
         {france:"Paris" , capital:"Paris"}
-    ])
+
+    ])       
 
     {
         countries.map((country)=>{
@@ -19,12 +21,14 @@ function Countries (){
 
         })
     }
+    
     // same   as 
     // let countries  =  [
     //     {name:"india" , capital:"New delhi"},
     //     {country:"kenya"  , capital:"Nairobi"},
-    //     {france:"Paris" , capital:"Paris"}
+    //     {france:"Paris" , capital:"Paris"} 
     // ]
+
     return(
 
         <div>
