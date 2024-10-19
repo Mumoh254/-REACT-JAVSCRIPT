@@ -17,3 +17,15 @@ performing   an  operations  based  on  lyfecycle
 useeffect  //  or    sideeffect  hook    hook   is  a  hhook   that  is   connnected  to  the lyf   cycle    of  a  component   and  is  alaways  callled 
 
 every  component  shld  have  their   own  useeffect
+
+strict mode is  a  pretest  for  checking errors  memory  leaks 
+
+
+//update  life  cycle   of   component  rreenders 
+
+
+if  u  pass  a  second  parameter  as  a blank  array   it  will  be  only   be  called  for  the  first   render  or  mounting 
+
+//you  can  pass  dependencies  (variables   /  data )
+
+if   u  pass  variables  ij  dependency  array  useeffect   will   alwqays  be  c allled  for   first   render and   it   will   alaso  be   called   if  the  variable  changes 
