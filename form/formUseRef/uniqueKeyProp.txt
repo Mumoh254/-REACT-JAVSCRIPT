@@ -1,0 +1,54 @@
+
+
+//wen  u  perform  mapping  of  an  array  and   generate  a  list  of  elements 
+wen  virtual  dom  is   created  it  gets   confused
+thinks  of  all  elements  s  same  for  the  virtual  dom   give a unique  key  to  the  element  ur  looping  thro   then
+
+key to  the  praent   only 
+
+key={product.id}
+
+   return (
+        <div className="weather-component">
+            {error ? (
+                <p>{error}</p> 
+            ) : weatherData.length === 0 ? (
+                <p>Loading weather data...</p> // Show a loading message if no data
+            ) : (
+                weatherData.map((value) => (
+                    <div key={product.id}>
+                        <p>Date: {value.dateTimeISO}</p>
+                        <p>Max Temp: {value.maxTempF} °F</p>
+                        <p>Min Temp: {value.minTempF} °F</p>
+                        <p>Min Humidity: {value.minHumidity}%</p>
+                        <p>Weather: {value.weather}</p>
+                        <p>Wind Speed Max: {value.windSpeedMaxKPH} KPH</p>
+                        <p>Wind Speed Min: {value.windSpeedMinMPH} MPH</p>
+                    </div>
+                ))
+            )}
+        </div>
+    );
+
+
+if  u  dont  have  id   u  can  use  index   wen  u  perform  map  the   first  prameter  is   the  name   and  the   second  prameter  is   index
+ weatherData.map(value, index) 
+
+
+
+ how   to  update   state   wen  it   contains objects  or   arrays  ..
+
+ how   to  add  a  new   element  in  an  arrays
+ animal.push("Deer")
+
+ we  cannnot   pefrom  state  updation  directly  ...
+ create  a deep  copy  of  that   state  variables
+
+ let  copyAnimals  =  ...animals;
+ copyAnimls.push("zebra")
+ setAnimals(copyAnimals)
+
+
+ arrays   arae   considered  as   objects  in  javascript.....
+
+ spread   oparator  
