@@ -17,12 +17,22 @@ function Rev  (){
 
     return(
 
-        <div>    
+       
 
-           <h1> {country[0].name}</h1>
-           <h1> {country[0].population}</h1>
         
-        </div>
+        
+            country.map((country)=>{
+                return (
+                    <div>    
+
+                    <h1> {country[0].name}</h1>
+                    <h1> {country[0].population}</h1>
+                 
+                 </div>
+
+                )
+            })
+        }
 
     )
 }

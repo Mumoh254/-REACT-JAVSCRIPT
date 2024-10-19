@@ -7,6 +7,7 @@ function  Product(props){
     return(
         <div>    Tesla   Model1
             
+            
         <p>{name}</p>
         <p>{ age}</p>
 
@@ -14,4 +15,4 @@ function  Product(props){
     )
 }
 
-export  default  = Product
+export  default  = Product;

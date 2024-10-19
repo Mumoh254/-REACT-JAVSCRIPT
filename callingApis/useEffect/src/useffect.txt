@@ -1,0 +1,18 @@
+
+
+life  cycle  of  a  component   starts   wen it  loads  on  the  screen
+
+Mounting /
+
+if  the  component   has  some   stste   
+
+updating /
+
+when  the   component is   removed   from  the  screen   thats  callled
+unmounting /
+
+
+performing   an  operations  based  on  lyfecycle   
+
+useeffect  //  or    sideeffect  hook    hook   is  a  hhook   that  is   connnected  to  the lyf   cycle    of  a  component   and  is  alaways  callled 
+
