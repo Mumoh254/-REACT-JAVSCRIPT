@@ -1,7 +1,15 @@
 
-import React from "react";
+import React, { useEffect } from "react";
+
 
 function Product(){
+
+    useEffect( function(){
+
+        console.log("product  was   mounted ")
+
+    })
+
     return(
         <div  className="product">
 

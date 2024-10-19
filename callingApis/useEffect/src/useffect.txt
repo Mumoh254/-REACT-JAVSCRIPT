@@ -16,3 +16,4 @@ performing   an  operations  based  on  lyfecycle
 
 useeffect  //  or    sideeffect  hook    hook   is  a  hhook   that  is   connnected  to  the lyf   cycle    of  a  component   and  is  alaways  callled 
 
+every  component  shld  have  their   own  useeffect
