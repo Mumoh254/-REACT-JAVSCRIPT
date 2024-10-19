@@ -29,3 +29,11 @@ if  u  pass  a  second  parameter  as  a blank  array   it  will  be  only   be 
 //you  can  pass  dependencies  (variables   /  data )
 
 if   u  pass  variables  ij  dependency  array  useeffect   will   alwqays  be  c allled  for   first   render and   it   will   alaso  be   called   if  the  variable  changes 
+
+//perform   based  on  unloading  /  removing 
+
+
+
+doing  something  wen  u  remove   a  component    
+inside   useeffect     put  an  anonymous   function 
+thats  the   function  that  will  be  callled  wen  the  a   component  unmounts 
