@@ -6,11 +6,32 @@ function Product(){
 
    let[product , setProduct]  =  useState("iphone  14  pro")
 
-    useEffect( function(){
+    // useEffect( function(){
 
-        console.log("product  was   mounted ")
+    //   return ()=>{
+    //    console.log(
+    //     {
+    //       message:  "Component  is   now  removed   from   my  lyf  cycle "
+    //     }
+    //    )
+    //   }
+    
+    //     console.log("product  was   mounted ")
 
-    },[product])
+    // },[product])
+    useEffect(() => {
+      fetch('https://dummyjson.com/products')
+        .then((response) => response.json()) // Fixed typo: 'resposne' to 'response' and added parentheses to 'response.json'
+        .then((data) => {
+          console.log(
+          data
+          );
+        })
+        .catch((error) => { // Fixed typo: 'catach' to 'catch'
+          console.log(error);
+        });
+    }, []);
+    
 
     
     return(

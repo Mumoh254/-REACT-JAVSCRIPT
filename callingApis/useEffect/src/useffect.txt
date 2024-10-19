@@ -37,3 +37,6 @@ if   u  pass  variables  ij  dependency  array  useeffect   will   alwqays  be  
 doing  something  wen  u  remove   a  component    
 inside   useeffect     put  an  anonymous   function 
 thats  the   function  that  will  be  callled  wen  the  a   component  unmounts 
+you  can  have   multiple  useEffect   in  a  single   component 
+
+//how   to  call  api  in  react 
