@@ -8,13 +8,28 @@ function App() {
     "lion" , "Cheetah" , "Hyena"
   ])
 
+  function  add()
+  {
+
+    setAnimals((previousValue)=>{
+    return [...previousValue , "zebra" ]   
+  })
+ 
+   
+  }
+
+
+  function   changeName()  {
+         setName((prev)=>{
+          return  prev + "Elon Musk "
+         })
+  }
+
   return (
     <>
     <h1>  Heloow   Welcome </h1>
     <h2> {name}</h2>
-    <button onClick={()=>{
-      setName("Elon Musk")
-    }}>
+    <button onClick={changeName}>
       Change   Name 
     </button>
       {
@@ -25,9 +40,7 @@ function App() {
         })
       }
 
-      <button  onClick={()=>{
-        
-      }}>  add   new  animal </button>
+      <button  onClick={add}>  add   new  animal </button>
     </>
   )
 }

@@ -51,4 +51,76 @@ if  u  dont  have  id   u  can  use  index   wen  u  perform  map  the   first  
 
  arrays   arae   considered  as   objects  in  javascript.....
 
- spread   oparator  
+ spread   oparator
+
+ if   u  put   ... in front  of  the   aaary   it   breaks   the   arry   and   only   gives   u  the   values  directly   
+ ...arr 
+ [...arr]  
+
+ arr[33]  =  90  ;  changing   the  value   of an  arrr...
+ 
+  [...arr , 89, 89,  90 ]    you  can  pass  new   values  here 
+  arrays  arae  s tored  in  heap  ....
+
+
+  function  add(){
+   let  copyAnm  = [...animals , "zebra"]
+    copyAnm.push()
+    setAnimals(copyAnm)
+    console.log(copyAnm)
+  }
+
+//best  way  
+in  the  set  function  ..  can  also  a   callback    function   in  the  parameter
+u  get   the   prev   values 
+
+
+
+this  is   whwt   ia   callled   complex  stste  updating    import { useState } from 'react'
+import './App.css'
+
+function App() {
+  let [name ,setName ]  = useState("Peter Mumo")
+
+  let  [animals  ,  setAnimals]   =  useState([
+    "lion" , "Cheetah" , "Hyena"
+  ])
+
+  function  add()
+  {
+
+    setAnimals((previousValue)=>{
+    return [...previousValue , "zebra" ]   
+  })
+ 
+   
+  }
+
+
+  function   changeName()  {
+         setName((prev)=>{
+          return  prev + "Elon Musk "
+         })
+  }
+
+  return (
+    <>
+    <h1>  Heloow   Welcome </h1>
+    <h2> {name}</h2>
+    <button onClick={changeName}>
+      Change   Name 
+    </button>
+      {
+        animals.map((animal  ,  index)=>{
+          return(
+           <h1  key={index}>{animal}</h1>
+          )
+        })
+      }
+
+      <button  onClick={add}>  add   new  animal </button>
+    </>
+  )
+}
+
+export default App
