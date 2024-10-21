@@ -1,6 +1,8 @@
-import { useState } from 'react'
+
 import './App.css'
-import Form from './FormHandling/form'
+import HandleForm from './all'
+
+
 
 function App() {
  
@@ -9,7 +11,8 @@ function App() {
   return (
     <>
    <h1>  Form  Handling </h1>
-   <Form/>
+   <HandleForm/>
+  
    
     </>
   )

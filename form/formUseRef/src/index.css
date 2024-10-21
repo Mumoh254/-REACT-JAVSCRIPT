@@ -8,6 +8,12 @@
 .form {
   background:  skyblue;
 }
-input{
+
+.handleForm{
+  padding: 10px;
+  background:  skyblue;
+}
+
+.handleForm input{
   padding: 20px;
 }

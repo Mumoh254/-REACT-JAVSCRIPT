@@ -1,0 +1,13 @@
+
+//Multiple   functions   to  handle   multiple    fields  
+//problem   too  long   of   a   code  
+//solution    one  state   var   &   one   function   to   handle   all    inputs
+//create   a  single   state   variable  with  an   object  with   empy  values  like  name   emeil
+
+
+///if  you  want  to  pass  a  variable  as  a  property  of   an  object
+pass   an  array   nototion
+
+let    n  =  "hellow"
+
+let  a = {[n]: "peter" }
