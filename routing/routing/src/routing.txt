@@ -12,3 +12,15 @@ we  must  install   a  liblary   (  React  Router  dom )
 //react-router-dom  internelly   gives  u   two   internal  components 
 
 import {BrowserRouter ,Routes,Route}
+
+
+internal  routing ....
+child   route   or  secondary   routing
+
+/about/location      inside   about   open   location   component 
+
+
+
+close   the   parent   route   and   inside  it    start   writing   child    routes 
+
+

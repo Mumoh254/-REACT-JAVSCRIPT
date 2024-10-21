@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import './App.css'
 import Routing from './routing'
 import About from './components/about'
@@ -9,6 +9,8 @@ import Header from './components/header'
 import Footer from './components/footer'
 import Contacts from './components/contact'
 import Login from './components/login'
+import Map from './components/map'
+import Image from './components/images'
 
 
 
@@ -23,7 +25,15 @@ function App() {
     <Route  path='/'  element={ <Home/>}/>
       <Route  path='/routing'  element={ <Routing/>}/>
       <Route  path='/services'  element={  <Services/>}/>
-      <Route  path='/about'  element={ <About/>}/>
+      <Route  path='/about'  element={ <About/>}>
+
+       <Route  path='/about/images'  element={ <Image/>}/>
+       <Route  path='/about/location'  element={ <Map/>}/>
+    
+
+
+      </Route>
+
       <Route  path='/contacts'  element={ <Contacts/>}/>
       <Route  path='/login'  element={ <Login/>}/>
     </Routes>

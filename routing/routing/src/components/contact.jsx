@@ -5,11 +5,6 @@ import Form from './form';
 
 function Contacts() {
     return (
-      
-         
-          
-               
-                    
                    
                         <div className="Contacts">
                                <Form />
