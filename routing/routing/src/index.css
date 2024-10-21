@@ -104,3 +104,14 @@ link{
   background: yellow;
   color:  #000;
 }
+
+
+.form  {
+  background: skyblue;
+}
+
+.form  input  {
+  padding: 10px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
