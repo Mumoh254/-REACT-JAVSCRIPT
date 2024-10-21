@@ -61,3 +61,41 @@
 p{
   font-size: 2rem;
 }
+
+.nav{
+  background:   #333;
+  color: #fff;
+  font-weight: bold;
+  
+}
+
+.nav  ol   {
+
+  display: flex;
+  background: #000;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+.nav  li  {
+  list-style-type: none;
+  margin-left: 10px;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+link{
+  color: #fff;
+}
+
+.nav-link  {
+  color: #fff;
+  text-decoration: none;
+  transition: .9s;
+}
+
+.nav-link:hover{
+  color: red;
+
+}
