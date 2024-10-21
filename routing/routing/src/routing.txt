@@ -1,0 +1,14 @@
+
+//routing   &&   Use  ref
+
+Routing - when  you   open  or   acess  based  on  a  path   thats   what  is  called   routing 
+//acessing  a  file   based  on  a  path 
+
+
+
+we  must  install   a  liblary   (  React  Router  dom )
+
+///routing  logic    on  appp  componets
+//react-router-dom  internelly   gives  u   two   internal  components 
+
+import {BrowserRouter ,Routes,Route}
